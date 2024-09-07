@@ -1,0 +1,30 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cafavila/trading-notes-app.git"
+  },
+  "author": "granadina corporation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cafavila/trading-notes-app/issues"
+  },
+  "homepage": "https://github.com/cafavila/trading-notes-app#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
